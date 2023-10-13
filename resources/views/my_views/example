@@ -1,0 +1,46 @@
+DB::table('caso_updates')->insert([
+    [
+        'caso_id' => 6, // Assuming caso_id is 6 for the "Caso de Custodia de Menores"
+        'descripcion' => 'Se ha iniciado el proceso de custodia de menores entre Jane Doe y Peter Doe.',
+        'fecha' => '2023-04-05',
+        'estado' => 100, // 100% completado (initial state)
+    ],
+    [
+        'caso_id' => 6,
+        'descripcion' => 'Se llevó a cabo la primera audiencia de custodia de menores.',
+        'fecha' => '2023-05-01',
+        'estado' => 90, // 90% completado
+    ],
+    [
+        'caso_id' => 6,
+        'descripcion' => 'Se completó la evaluación psicológica de los padres y los hijos.',
+        'fecha' => '2023-06-01',
+        'estado' => 80, // 80% completado
+    ],
+    [
+        'caso_id' => 6,
+        'descripcion' => 'Se realizó una segunda audiencia para discutir las posibles arreglos de custodia.',
+        'fecha' => '2023-06-15',
+        'estado' => 70, // 70% completado
+    ],
+    [
+        'caso_id' => 6,
+        'descripcion' => 'Ambas partes presentaron sus argumentos finales sobre la custodia de los hijos.',
+        'fecha' => '2023-07-01',
+        'estado' => 60, // 60% completado
+    ],
+    [
+        'caso_id' => 6,
+        'descripcion' => 'El tribunal ordenó la custodia compartida de los hijos, con obligaciones de manutención definidas.',
+        'fecha' => '2023-08-01',
+        'estado' => 50, // 50% completado
+    ],
+    [
+        'caso_id' => 6,
+        'descripcion' => 'Se resolvieron los detalles finales de la custodia y la manutención de los hijos.',
+        'fecha' => '2023-08-10',
+        'estado' => 40, // 40% completado
+    ],
+]);
+
+// You can continue adding more updates as needed.
