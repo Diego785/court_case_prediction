@@ -23,10 +23,10 @@
     @livewire('alerts.main-alerts', ['id' => $id])
 @endsection --}}
 
-@section('css')
+{{-- @section('css')
     @livewireStyles
 @stop
 @section('js')
     @livewireScripts
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-@stop
+@stop --}}
