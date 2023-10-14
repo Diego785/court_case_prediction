@@ -15,3 +15,18 @@
 @section('content')
     @livewire('caso', ['case_id' => $case->id])
 @endsection
+{{-- @section('action')
+    <a href="{{ route('#') }}" class="hover:underline ">Another view</a>
+@endsection --}}
+
+{{-- @section('content')
+    @livewire('alerts.main-alerts', ['id' => $id])
+@endsection --}}
+
+@section('css')
+    @livewireStyles
+@stop
+@section('js')
+    @livewireScripts
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+@stop
