@@ -39,7 +39,7 @@ class Caso extends Component
     {
         // dd($this->case_id);
         $this->caso = ModelsCaso::find($this->case_id);
-        $this->casoArray = $this->caso->toArray();
+        $this->casoArray = $this->caso;
         $current_date = (new Carbon())->format('d/m/Y');
         $this->prediction_date = $current_date . ' 00:00:00';
         $this->start_date = '2023-01-01 00:00:00';
